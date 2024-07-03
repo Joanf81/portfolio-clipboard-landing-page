@@ -1,31 +1,15 @@
-# Simple Tailwind CSS Starter
+# Clipboard app landing page
 
-This is an extremley simple setup to develop Tailwind projects. This will be used in my Tailwind From Scratch course.
+This is a simple landing webpage for a clipboard app.
 
-## Usage
+## Technologies
 
-Install dependencies
+HTML + TailwindCSS
 
-```
-npm install
-```
+## Visit
 
-Run Tailwind CLI in watch mode
+You can visit the example page on: https://joan-clipboard-website.netlify.app/
 
-```
-npm run dev
-```
+## Preview
 
-You can use tailwind classes in any .html files in the root directory
-
-Put any custom CSS that you may have in the **src/input.css** file
-
-Add any config values to the **tailwind.config.js** file
-
-To build once, run
-
-```
-npm run build
-```
-
-You only need to deploy your html files and css/style.css
+![screencapture-joan-clipboard-website-netlify-app-2024-07-03-23_04_18](https://github.com/Joanf81/portfolio-clipboard-landing-page/assets/12248423/45a3dacc-2aaa-4672-a800-a288eecf29d4)
