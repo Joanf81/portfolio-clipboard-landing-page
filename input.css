@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  .section-container {
+    h3 {
+      @apply text-4xl mb-8 font-sans font-semibold text-darkGrayishBlue md:text-5xl;
+    }
+
+    h4 {
+      @apply text-2xl mb-5 font-sans font-semibold text-darkGrayishBlue;
+    }
+
+    h3 + p {
+      @apply max-w-3xl mx-auto mb-10 leading-9 text-center text-grayishBlue;
+    }
+
+    h4:not(.features-title) + p {
+      @apply max-w-[300px] mx-auto mb-10 text-center text-grayishBlue;
+    }
+  }
+}
+
+.section-container {
+  @apply max-w-6xl mx-auto text-center;
+}
+
+.button-container {
+  @apply flex flex-col w-full space-y-6 justify-center items-center text-white text-xl md:flex-row md:space-x-4 md:space-y-0 md:w-auto;
+}
+
+.features-title {
+  @apply text-2xl mb-2 font-sans font-semibold text-darkGrayishBlue;
+}
+
+.features-content {
+  @apply max-w-md text-grayishBlue;
+}
+
+body {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media(max-width: 576px) {
+  body {
+    background-image: url("../images/bg-header-mobile.png");
+  }
+}
