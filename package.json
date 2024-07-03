@@ -4,12 +4,16 @@
   "description": "Simple file structure for Tailwind projects",
   "main": "index.js",
   "scripts": {
-    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
-    "build": "tailwindcss -i ./input.css -o ./css/style.css"
+    "watch": "tailwindcss --postcss -i ./input.css -o ./css/style.css --watch",
+    "build": "tailwindcss --postcss -i ./input.css -o ./css/style.css"
   },
   "author": "Brad Traversy",
   "license": "MIT",
   "devDependencies": {
-    "tailwindcss": "^3.0.24"
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "postcss-nested": "^6.0.1",
+    "postcss-nesting": "^12.1.5",
+    "tailwindcss": "^3.4.4"
   }
 }

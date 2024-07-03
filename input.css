@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-
   .section-container {
     h3 {
       @apply text-4xl mb-8 font-sans font-semibold text-darkGrayishBlue md:text-5xl;
@@ -21,6 +20,7 @@
       @apply max-w-[300px] mx-auto mb-10 text-center text-grayishBlue;
     }
   }
+  
 }
 
 .section-container {
